@@ -1,0 +1,53 @@
+.menu{
+   
+}
+.menu-header{
+    display: flex;
+}
+
+.img-menu{
+    
+}
+
+.manu-busqueda{
+    
+}
+
+.menu-bton-busqueda{
+
+}
+
+.banner-div{
+    
+}
+
+.banner-img{
+    
+    width: 1440px;
+    height: 352px;
+}
+
+.StarWars-img{
+    width: 176px;
+    height: 174px;
+}
+.StarWars-line{
+    display: flex;
+}
+.StarWars-box{
+    display: flex;
+}
+.Consolas-img{
+    width: 176px;
+    height: 174px;
+}
+.Consolas-box{
+    display: flex;
+}
+.diversos-img{
+    width: 176px;
+    height: 174px;
+}
+.diversos-box{
+    display: flex;
+}
