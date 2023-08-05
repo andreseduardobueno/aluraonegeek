@@ -1,0 +1,195 @@
+body{
+    width: 1440px;
+    height: -100%;
+    
+}
+.todo{
+   margin-left: 100px;
+   margin-right: 100px;
+   
+}
+
+/* seccion menu*/
+.menu{
+   width: 1440px;
+   height: 115px;
+   margin-top: 50px;
+   
+}
+.menu-header{
+   display: flex;
+   
+   
+   
+}
+
+.menu-img{
+  margin-right: 30px;
+   
+}
+
+.manu-busqueda{
+   width: 393px;
+   height: 40px;
+   background: #f0f0f0;
+   border-radius: 15px 15px 15px 15px;
+   margin-left: 20px;
+   
+   
+}
+
+.menu-barra-busqueda{
+   width: 260px;
+   height: 26px;
+   border: none;
+   background: #f0f0f0;
+   margin-right: 50px;
+   margin-left: 20px;
+   
+
+}
+
+.menu-bton-busqueda{
+
+   border: none;
+   margin-top: 5px;
+
+}
+.menu-bton-login{
+   margin-left: 400px;
+   width: 182px;
+   height: 51px;
+   background: white;
+   border-color: #2A7AE4;
+   color: #2A7AE4;
+}
+.agregarproducto-section{
+   width: 1440px;
+   height: 745px;
+   display: flex;
+   background: #f0f0f0;
+   margin-left: -100px;
+   
+   
+}
+
+.box-agregarproducto{
+   width: 423px;
+   height: 291px;
+   text-align: center;
+   margin-top: 100px;
+   margin-left: 425px;
+}
+
+.title-agregarproducto{
+   width: 559px;
+   height: 38px;
+   font-size: 18px;
+   font-weight: bold;
+   margin-left: 0px;
+   text-align: center;
+}
+
+.agregarproducto__input{
+   width: 559px;
+   height: 56;
+   border: none;
+   padding: 20px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.inicsesion__inputcontraseña{
+   width: 559px;
+   height: 56;
+   border: none;
+   padding: 20px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.agregarproducto__btn{
+   margin-top: 5px;
+   width: 600px;
+   height: 56px;
+   background: #2A7AE4;
+   color: white;
+   border: none;
+}
+
+
+.contacto{
+   width: 1440px;
+   height: 368px;
+   display: flex;
+   background: #EAF2FD;
+   margin-left: -100px;
+   margin-top: 0px;
+   
+}
+.contacto-box{
+   display: flex;
+   width: 1136px;
+   height: 240px;
+   margin-top: 40px;
+   margin-left: 80px;
+   justify-content: space-between;
+}
+.contacto-img{
+   width: 176px;
+   height: 40px;
+}
+.contacto-div{
+   display: flex
+}
+.contacto-ul{
+   width: 176px;
+   height: 234px;
+   list-style: none;
+}
+.contacto-informacion{
+   margin-bottom: 25px;
+}
+.formcontato__form{
+   flex-direction: flex;
+   width: 560px;
+   height: 240px;
+}
+.formcntacto_div{
+   flex-direction: column;
+   width: 560px;
+   height: 240px;
+}
+.formcotac-p{
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.formcontato__input{
+   width: 560px;
+   height: 56px;
+   margin-bottom: 15px;
+   border: none;
+   
+}
+.formcontato__textarea{
+   width: 560px;
+   height: 82px;
+   border: none;
+}
+
+.formcontato__botao{
+   margin-top: 5px;
+   width: 112px;
+   height: 19px;
+   background: #2A7AE4;
+   color: white;
+   border: none;
+
+}
+.footer{
+   margin-top: 20px;
+}
+.footer__rodape{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   color: #464646;
+}

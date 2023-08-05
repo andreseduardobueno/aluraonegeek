@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloslogin.css">
+    <link rel="stylesheet" href="login.css">
     <title>login</title>
 </head>
 <body>
     <div class="todo">
         <section class="menu">
             <header class="menu-header">
-                <img class="menu-img" src="imagesdesafio/logo.svg" alt="logo">
+                <a href="../INDEX.HTML"><img class="menu-img" src="../imagesdesafio/logo.svg" alt="logo"></a>
                 <section class="manu-busqueda">
                     <input type="text" class="menu-barra-busqueda" placeholder="   ¿Que decea buscar?" />
-                    <button class="menu-bton-busqueda" type="submit"> <img src="imagesdesafio/icon-search.img.svg"/></button>
+                    <button class="menu-bton-busqueda" type="submit"> <img src="../imagesdesafio/icon-search.img.svg"/></button>
                 </section>
 
-                    <button class="menu-bton-login" >login</button>
+                    
             </header>
         </section>
 
@@ -25,16 +25,16 @@
                 <div class="box-iniciosesion">
                     <p class="title-inicsesion"> inicio de sesion</p>
                     <form class="form-inicsesion" name="form">
-                        <input class="inicsesion__input" type="text" name="nombre" placeholder="escriba su correo electronico"><br>
-                        <input class="inicsesion__inputcontraseña" type="text" name="nombre" placeholder="escriba su contraseña"><br>
-                        <button type="submit" class="forminicsesion__botao">Enviar mensaje</button>
+                        <input class="inicsesion__input" type="email" name="email" placeholder="escriba su correo electronico" data-email required pattern="^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[az]{2,3}$"><br>
+                        <input class="inicsesion__inputcontraseña" type="password" name="nombre" placeholder="escriba su contraseña" data-password required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$"><br>
+                        <button type="submit" class="forminicsesion__botao" onclick="enviarinf()">Enviar mensaje</button>
                     </form>
                 </div>
             </section>
 
         <section class="contacto">
             <div class="contacto-box">
-                <img class="contacto-img" src="imagesdesafio/logo.svg" alt="logo">
+                <img class="contacto-img" src="../imagesdesafio/logo.svg" alt="logo">
                 <div class="contacto-div">
                     <ul class="contacto-ul">
                         <li class="contacto-informacion">Quienes Somos</li>
@@ -61,5 +61,7 @@
             </section>
             
     </div>
+   
+    <script src="cliente-servidor/cliente-servidor.js"></script>
 </body>
 </html>

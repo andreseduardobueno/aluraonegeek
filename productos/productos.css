@@ -112,14 +112,33 @@ body{
 }
 .StarWars{
 
+
+}
+
+.agregarproducto_button{
+
+    color: white;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    width: 163px;
+    height: 51px;
+    margin-top: 10px;
+
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .StarWars-div,.Consolas-div,.Diversos-div{
     width: 1133px;
     height: 38px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 60px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
     
     
 }
@@ -150,6 +169,7 @@ body{
 .StarWars-box{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
     
 }
 .StarWars-ul, .Consolas-ul, .diversos-ul{
@@ -166,8 +186,7 @@ body{
     font-size: 16px;
 }
 .StarWars-verproducto, .Consolas-verproducto, .diversos-verproducto{
-    color: #2A7AE4;
-    font-weight: bold;
+    
     margin-top: 5px;
     font-size: 16px;
 }
@@ -178,6 +197,7 @@ body{
 }
 .Consolas-box{
     display: flex;
+    margin-bottom: 50px;
 }
 .diversos-img{
     width: 176px;
@@ -185,6 +205,7 @@ body{
 }
 .diversos-box{
     display: flex;
+    margin-bottom: 50px;
 }
 
 .contacto{

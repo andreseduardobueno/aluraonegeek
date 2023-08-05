@@ -1,0 +1,11 @@
+{
+  "perfil": [
+    {
+      "nombre": "pedro",
+      "email": "pedro@alura.com",
+      "id": 1,
+      "rol": "administrador",
+      "password": "Admin-2023"
+    }
+  ]
+}

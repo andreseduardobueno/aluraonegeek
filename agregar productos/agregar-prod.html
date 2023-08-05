@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agregar-prod.css">
+    <title>Agregar producto</title>
+</head>
+<body>
+    <div class="todo">
+        <section class="menu">
+            <header class="menu-header">
+                <a href="../INDEX.HTML"><img class="menu-img" src="../imagesdesafio/logo.svg" alt="logo"></a>
+                <section class="manu-busqueda">
+                    <input type="text" class="menu-barra-busqueda" placeholder="   ¿Que decea buscar?" />
+                    <button class="menu-bton-busqueda" type="submit"> <img src="../imagesdesafio/icon-search.img.svg"/></button>
+                </section>
+
+                    <button class="menu-bton-login" type="button" >MENU ADMINISTRADOR</button>
+            </header>
+        </section>
+
+        
+            <section class="agregarproducto-section">
+                <div class="box-agregarproducto">
+                    <p class="title-agregarproducto"> Agregar nuevo Producto</p>
+                    <form class="form-agregarproducto" name="form">
+                        <input class="agregarproducto__input" type="input" name="url-imagenprod" placeholder="Url de imagen" data-email><br>
+                        <input class="agregarproducto__input" type="text" name="categoria-prod" placeholder="Categoria" required data-password><br>
+                        <input class="agregarproducto__input" type="text" name="nombre-prod" placeholder="Nombre del producto" required  maxlength="20" data-email><br>
+                        <input class="agregarproducto__input" type="number" name="precio-prod" placeholder="precio del producto" required ><br>
+                        <input class="agregarproducto__input" type="text" name="descripcion-prod" placeholder="Descripcion del producto" maxlength="150" ><br>
+                        <button type="submit" class="agregarproducto__btn" onclick=""()>Agregar producto</button>
+                    </form>
+                </div>
+            </section>
+
+        <section class="contacto">
+            <div class="contacto-box">
+                <img class="contacto-img" src="../imagesdesafio/logo.svg" alt="logo">
+                <div class="contacto-div">
+                    <ul class="contacto-ul">
+                        <li class="contacto-informacion">Quienes Somos</li>
+                        <li class="contacto-informacion">Politica de Privacidad</li>
+                        <li class="contacto-informacion">Programa de Fidelidad</li>
+                        <li class="contacto-informacion">Nuestras Tiendas</li>
+                        <li class="contacto-informacion">Quiero ser Franquiciado</li>
+                        <li class="contacto-informacion">Anuncie Aqui</li>
+                    </ul>
+                </div>
+                <div class="formcntacto_div">
+                    <p class="formcotac-p">hable con nosotros</p>
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    </form>
+            </section>
+            <section class="footer">
+                <div class="footer__rodape">
+                    <p>Desarrollado por Fulana de Tal</p>
+                    <p>2022</p>
+                </div>
+            </section>
+            
+    </div>
+   
+    
+</body>
+</html>
